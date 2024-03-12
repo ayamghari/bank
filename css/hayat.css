@@ -1,0 +1,16 @@
+section {
+    background-color: #eeeeee;
+  }
+  .card .card-body img {
+    width: 200px;
+    
+  }
+  .main-btn {
+    background-color: rgb(18, 143, 239);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+  }
+   .hayat {
+   background-color: rgb(18, 143, 239);
+  }
