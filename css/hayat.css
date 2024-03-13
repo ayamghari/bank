@@ -1,3 +1,7 @@
+
+body {
+    background-color: rgb(8, 202, 173);
+}
 section {
     background-color: #eeeeee;
   }
@@ -6,11 +10,11 @@ section {
     
   }
   .main-btn {
-    background-color: rgb(18, 143, 239);
+    background-color:  rgb(8, 202, 173);
     color: white;
     padding: 0.5rem 1rem;
     border: none;
   }
    .hayat {
-   background-color: rgb(18, 143, 239);
+   background-color:  rgb(8, 202, 173);
   }
