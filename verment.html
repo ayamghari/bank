@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bank</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/aya.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <div class="logo">
+          <a class="text-uppercase navbar-brand" href="#">cih bank</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-lg-3" href="#">login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-lg-3" href="#">solde</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-lg-3" href="verment.html">verement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-lg-3" href="#">operation</a>
+            </li>
+            <li class="nav-item">
+              <div>
+                <a class="nav-link p-lg-3" href="#"
+                  >out <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <form class="form" action="/action_page.php">
+        <H2 class="text-center">verment</H2>
+        <div class="form-group">
+          <label class="p-2" for="number">Numero dU compte:</label>
+          <input type="text" class="form-control" id="number" required >
+        </div>
+        <div class="form-group">
+          <label class="p-2" for="pwd">Montant:</label>
+          <input type="text" class="form-control" id="pwd" placeholder="Montant par DH">
+        </div>
+        <br><br>
+        
+        <button type="submit" class=" rounded-5 sub btn btn-default">Envoyer</button>
+      </form>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
