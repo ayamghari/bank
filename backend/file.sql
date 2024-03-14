@@ -5,7 +5,8 @@ drop table verement;
 create table client(
 	id int primary key auto_increment,
 	Username varchar(100), 
-	email varchar(100)
+	email varchar(100),
+	password varchar(100)
 );
 create table compte(
 	id int,
@@ -16,7 +17,5 @@ create table verement(
 	dateVerement date default now(),
 	userId int,
 	montant float
-
-
-
 );
+ insert into client(Username,email,password) values("tarik","t@gmail.com","12345");
